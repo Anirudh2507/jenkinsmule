@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/cor
     </spring:beans>
     <munit:test name="jenkinsmule-test-suite-jenkinsmuleFlowTest" description="Test">
         <flow-ref name="jenkinsmuleFlow" doc:name="Flow-ref to jenkinsmuleFlow"/>
-        <munit:assert-payload-equals message="failed " expectedValue="#['Jekinssssssssss!!!!!']" doc:name="Assert Payload"/>
+        <munit:assert-payload-equals message="failed " expectedValue="#['Jekinssssssssss!!!!']" doc:name="Assert Payload"/>
     </munit:test>
 </mule>
