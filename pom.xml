@@ -20,7 +20,7 @@
 	</properties>
 
 	<build>
-		<plugins>
+		<plugis>
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-app-maven-plugin</artifactId>
