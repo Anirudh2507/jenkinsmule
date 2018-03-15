@@ -10,6 +10,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
     <flow name="jenkinsmuleFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/jenkin" doc:name="HTTP"/>
         <set-payload value="#['Jenkinngssssssssss!!!!']" doc:name="Set Payload"/>
+        <set-payload value="#['Jenkins']" doc:name="Set Payload"/>
         <logger message="#[payload]" level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
